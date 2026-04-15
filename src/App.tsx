@@ -7,6 +7,7 @@ import Contact from "./pages/contact/Contact"
 import Home from "./pages/home/Home"
 import LoginClient from "./pages/login/LoginClient"
 import LoginEmployee from "./pages/login/LoginEmployee"
+import Success from "./pages/success/Success"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/solicitar apolice" element={<Contact />} />
             <Route path="/login-cliente" element={<LoginClient />} />
             <Route path="/login-funcionario" element={<LoginEmployee />} />
+            <Route path="/sucesso" element={<Success />} />
           </Routes>
         </div>
       <Footer />
