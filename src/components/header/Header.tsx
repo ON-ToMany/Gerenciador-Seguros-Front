@@ -9,11 +9,11 @@ export const Header = () => {
     <nav className="w-full flex items-center justify-between px-10 py-4 bg-[#F0F2F5] border-b border-gray-300">
       <div className="flex items-center gap-3">
         <img
-          src="src\Assets\logoescrita.svg"
+          src="src\assets\logoescrita.svg"
           alt="IonGuard Logo"
           className="h-10 w-auto"
         />
-        
+
       </div>
 
       <div className="flex gap-8 items-center">
