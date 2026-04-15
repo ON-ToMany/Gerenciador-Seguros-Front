@@ -1,4 +1,4 @@
-function Sobre() {
+function About() {
   return (
     <section className="bg-gray-100 py-12 px-6 md:px-12 lg:px-24 font-sans text-gray-900">
       <div className="max-w-4xl mx-auto">
@@ -31,4 +31,4 @@ function Sobre() {
   );
 }
 
-export default Sobre;
+export default About;

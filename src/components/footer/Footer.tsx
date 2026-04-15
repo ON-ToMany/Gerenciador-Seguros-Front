@@ -3,20 +3,20 @@ import {
   FaLinkedinIn,
   FaFacebookF,
   FaTwitter,
-} from "react-icons/fa"; 
+} from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#1a2344] text-gray-300 py-12 px-6 font-sans">
+    <footer className="bg-blue-950 text-gray-300 py-12 px-6 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-700 pb-10">
 
         <div className="space-y-6">
           <div className="flex items-center gap-2">
 
 
-            <img src="src\Assets\logoescrita.svg" alt="" />
+            <img src="src\assets\logoescrita.png" alt="" />
           </div>
-          <p className="text-sm leading-relaxed max-w-xs">
+          <p className="text-sm text-white/50 leading-relaxed max-w-xs">
             Seguro especializado em e-bikes. Proteção completa para você pedalar
             com tranquilidade por todo o Brasil.
           </p>
@@ -45,7 +45,7 @@ export const Footer = () => {
 
         <div className="space-y-6">
           <h3 className="text-white font-bold text-lg">Links Rápidos</h3>
-          <ul className="space-y-4">
+          <ul className="space-y-4 text-white/50">
             {["Home", "Quem Somos", "Assistência 24hs"].map((item) => (
               <li key={item}>
                 <a
@@ -62,7 +62,7 @@ export const Footer = () => {
 
         <div className="space-y-6">
           <h3 className="text-white font-bold text-lg">Contatos</h3>
-          <ul className="space-y-4 text-sm">
+          <ul className="space-y-4 text-sm text-white/50">
             <li className="hover:text-cyan-600 cursor-default transition-colors">
               55+ 21 3003-1313
             </li>
