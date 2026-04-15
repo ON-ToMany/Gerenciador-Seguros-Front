@@ -1,7 +1,15 @@
+import HeroSection from "../../components/home/HeroSection"
+import Sobre from "../../components/home/About"
+import ContactSection from "../../components/home/ContactSection";
+
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <HeroSection />
+      <Sobre />
+      <ContactSection />
+    </div>
   )
 }
 
-export default Home
+export default Home;
