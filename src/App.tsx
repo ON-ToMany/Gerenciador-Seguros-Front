@@ -3,7 +3,8 @@ import Home from "./pages/home/Home"
 function App() {
 
   return (
-    <><Home/>
+    <>
+    <p>fasd</p><Home/>
     
     
     </>
