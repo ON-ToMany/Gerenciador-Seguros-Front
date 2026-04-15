@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Contact() {
   return (
     <>
@@ -63,12 +65,12 @@ function Contact() {
                 ></textarea>
             </div>
 
-            <button 
-                type="submit"
-                className="bg-cyan-700 text-white font-semibold py-2 rounded-xl hover:bg-cyan-800 transition"
+            <Link
+            to="/sucesso"
+            className="bg-cyan-700 text-white font-semibold py-2 rounded-xl hover:bg-cyan-800 transition text-center"
             >
-                Enviar
-            </button>
+            Enviar
+            </Link>
 
         </form>
     </div>

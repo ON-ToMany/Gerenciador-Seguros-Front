@@ -17,7 +17,7 @@ export const Header = () => {
       </div>
 
       <div className="flex gap-8 items-center">
-        {["Home", "Planos", "Atendimento", "Institucional"].map((item) => (
+        {["Home", "Planos", "Atendimento", "Solicitar Apolice", "Institucional"].map((item) => (
           <Link
             key={item}
             to={`/${item.toLowerCase()}`}
