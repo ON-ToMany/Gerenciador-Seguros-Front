@@ -7,7 +7,7 @@ export default function CardApolice({icone,titulo,descricao}:{icone:ReactNode ,d
    <div className="p-4 w-68  "> 
       
  
-      <div className="bg-white shadow-md border border-gray-200 rounded-lg p-4 w-full max-w-md">
+      <div className="  bg-white border border-white  shadow-2xl rounded-lg p-4 w-full max-w-md">
         
         <div className="flex items-center gap-4 mb-2">
     

@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-    <p>fasd</p><Home/>
+    <Home/>
     
     
     </>
