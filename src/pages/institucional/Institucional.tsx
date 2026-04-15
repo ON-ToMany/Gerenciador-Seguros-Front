@@ -37,7 +37,7 @@
 
       <hr className="border-t-[1.5px] border-gray-400/50 mt-8" />
     </div>
-        </>        
+    </>        
    
   )
 }

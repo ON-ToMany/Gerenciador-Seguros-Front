@@ -8,6 +8,8 @@ import Home from "./pages/home/Home";
 import LoginClient from "./pages/login/LoginClient";
 import LoginEmployee from "./pages/login/LoginEmployee";
 import Success from "./pages/success/Success";
+import TabelaHome from "./components/TabelaHome/TabelaHome";
+import ContactSection from "./components/home/ContactSection";
 
 function App() {
   return (
@@ -19,11 +21,12 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/portal-cliente" element={<Client />} />
           <Route path="/portal-funcionario" element={<Employee />} />
-          {/* O espaço na rota foi substituído por um hífen */}
-          <Route path="/solicitar-apolice" element={<Contact />} />
+          <Route path="/solicitar apolice" element={<Contact />} />
           <Route path="/login-cliente" element={<LoginClient />} />
           <Route path="/login-funcionario" element={<LoginEmployee />} />
           <Route path="/sucesso" element={<Success />} />
+          <Route path="/planos" element={<TabelaHome />} />
+          <Route path="/atendimento" element={<ContactSection />} />
         </Routes>
       </div>
       <Footer />

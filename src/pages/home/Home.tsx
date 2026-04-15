@@ -44,7 +44,7 @@ function Home() {
       <div >
   <h1 className="text-[1.35rem] font-bold text-[#103543] mb-8 ml-26">
   Nossa equipe
-</h1>
+  </h1>
         <div className="flex flex-wrap gap-6 justify-center px-4">
           <Institucional foto="src/assets/image 12.png" dsc="Colaborou na ideia e coordenação do projeto, participando ativamente em todas as etapas, código." nome="Álvaro César" cargo="SCRUM MASTER"/>
           <Institucional foto="src/assets/image 8.png" dsc="Colaborou na ideia e coordenação do projeto, participando ativamente em todas as etapas, código." nome="Breno Nunes" cargo="DEV"/>
