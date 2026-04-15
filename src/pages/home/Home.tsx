@@ -5,19 +5,16 @@ import { RiSecurePaymentLine, RiGlobalLine } from 'react-icons/ri';
 import { Ri24HoursLine } from "react-icons/ri"; 
 import HeroSection from "../../components/home/HeroSection";
 import About from "../../components/home/About";
-import ContactSection from "../../components/home/ContactSection";
 import SectionCTA from "../../components/home/SectionCTA";
 
 function Home() {
   return (
     <div className="flex flex-col gap-12">
       
-    
       <HeroSection />
       <About />
 
-    
-      <div  className="mr-2 justify-items-center ">
+      <div className="mr-2 justify-items-center ">
         <h1 className="text-cyan-700 font-bold text-2xl ml-5 mb-6">
           Por que escolher a IonGuard?
         </h1>
@@ -41,10 +38,10 @@ function Home() {
       </div>
       <div> <TabelaHome/></div>
 
-      <div >
-  <h1 className="text-[1.35rem] font-bold text-[#103543] mb-8 ml-26">
-  Nossa equipe
-  </h1>
+      <div>
+        <h1 className="text-[1.35rem] font-bold text-[#103543] mb-8 ml-26">
+          Nossa equipe
+        </h1>
         <div className="flex flex-wrap gap-6 justify-center px-4">
           <Institucional foto="src/assets/image 12.png" dsc="Colaborou na ideia e coordenação do projeto, participando ativamente em todas as etapas, código." nome="Álvaro César" cargo="SCRUM MASTER"/>
           <Institucional foto="src/assets/image 8.png" dsc="Colaborou na ideia e coordenação do projeto, participando ativamente em todas as etapas, código." nome="Breno Nunes" cargo="DEV"/>
@@ -54,9 +51,6 @@ function Home() {
           <Institucional foto="src/assets/Foto (1).png" dsc="Colaborou na ideia e coordenação do projeto, participando ativamente em todas as etapas, código." nome="Mayara Monteiro" cargo="TESTER"/>
         </div>
       </div>
-
-      
-      <ContactSection />
       <SectionCTA />
       
     </div>

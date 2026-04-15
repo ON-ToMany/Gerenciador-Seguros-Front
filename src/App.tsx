@@ -9,7 +9,6 @@ import LoginClient from "./pages/login/LoginClient";
 import LoginEmployee from "./pages/login/LoginEmployee";
 import Success from "./pages/success/Success";
 import TabelaHome from "./components/TabelaHome/TabelaHome";
-import ContactSection from "./components/home/ContactSection";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Route path="/login-funcionario" element={<LoginEmployee />} />
           <Route path="/sucesso" element={<Success />} />
           <Route path="/planos" element={<TabelaHome />} />
-          <Route path="/atendimento" element={<ContactSection />} />
         </Routes>
       </div>
       <Footer />
