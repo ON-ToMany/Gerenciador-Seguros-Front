@@ -13,7 +13,6 @@ export const Header = () => {
           alt="IonGuard Logo"
           className="h-10 w-auto"
         />
-        
       </div>
 
       <div className="flex gap-8 items-center">
